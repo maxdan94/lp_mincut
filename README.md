@@ -1,7 +1,7 @@
 #README#
 
 ##Info##
-This is a C code to compute the mincut using LP and MOSEK https://mosek.com/ 
+This is a C code to compute the mincut using LP and MOSEK https://mosek.com/  
 The LP is detailed here:
 https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem#Linear_program_formulation
 
