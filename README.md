@@ -9,7 +9,7 @@ https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem#Linear_program_formulatio
 
 Install MOSEK with the C api (license is free for academics)  
 Change the Makefile replacing with your paths  
-type make 
+type "make" 
 
 ##To execute##
 
@@ -17,7 +17,7 @@ type "./mincut_lp graph.txt"
 
 graph.txt should contain:
 - the id of the source node followed by the ID of the target node on the first line,
-- source target weight on each next lines.
+- "source target weight" on each next lines.
 graph.txt is an example of input.
 
 It will print the value (d_ij between 0 and 1) associated to each edge and the value of the cut.
