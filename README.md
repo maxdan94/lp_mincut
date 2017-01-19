@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem#Linear_program_formulatio
 It is also an attempt to compute the correlated mincut where some edges can be correlated, that is "if edges ij and kl are correlated then ij is cut iff kl is cut". 
 This is somehow a subproblem of what is define here: http://people.csail.mit.edu/stefje/papers/subcutsShort.pdf
 
-Not sure whether this problem of correlated mincut is NP-Hard or not yet. It is in P if the added "correlation constrains" leave the constraints matrix totally unimodular: https://en.wikipedia.org/wiki/Unimodular_matrix
+Not sure whether this problem of correlated mincut is NP-Hard or not yet. It is in P if the added "correlation constrains" leave the constraint matrix totally unimodular: https://en.wikipedia.org/wiki/Unimodular_matrix
 
 
 ##To compile##
