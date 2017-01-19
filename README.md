@@ -10,8 +10,8 @@ This is somehow a subproblem of what is define here: http://people.csail.mit.edu
 
 ##To compile##
 
-Install MOSEK with the C api (license is free for academics) 
-Change the Makefile replacing with your paths 
+Install MOSEK with the C api (license is free for academics)  
+Change the Makefile replacing with your paths  
 type "make"
 
 ##To execute##
