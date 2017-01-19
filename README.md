@@ -23,17 +23,16 @@ type "make"
 type "./mclp graph.txt" for the basic mincut  
 graph.txt should contain:
 - the id of the source node followed by the ID of the target node on the first line,
-- "source target weight" on each next lines.
-The given graph.txt is an example of input.  
+- "source target weight" on each next lines. The given graph.txt is an example of input.  
+
 It will print the value (d_ij between 0 and 1) associated to each edge and the value of the cut.
 
 type "./mclp_cor graph_cor.txt" for the correlated mincut  
 graph_cor.txt should contain:
 - the id of the source node followed by the ID of the target node on the first line,
-- "n w s_1 t_1 s_2 t_2 ... s_n t_n" on each next lines (n is the number of correlated edges, w is the sum of the weights of the correlated edges, s_i t_i are the source and target for each edge".
-The given graph_cor.txt is an example of input.
+- "n w s_1 t_1 s_2 t_2 ... s_n t_n" on each next lines (n is the number of correlated edges, w is the sum of the weights of the correlated edges, s_i t_i are the source and target for each edge". The given graph_cor.txt is an example of input.
 
-It will print the value (d_ij between 0 and 1) associated to each set of correlated edge and the value of the cut.
+It will print the value (d_ij between 0 and 1) associated to each set of correlated edges and the value of the cut.
 
 ##Initial contributors##
 
