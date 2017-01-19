@@ -14,7 +14,7 @@ Not sure whether this problem of correlated mincut is NP-Hard or not yet. It is 
 ##To compile##
 
 Install MOSEK with the C api (license is free for academics)  
-Change the Makefile replacing with your paths  
+Change the Makefile replacing the paths with the ones that fit your settings  
 type "make"
 
 ##To execute##
