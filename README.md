@@ -5,7 +5,7 @@ This is a C code to compute the mincut using LP and MOSEK https://mosek.com/
 The LP is detailed here:
 https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem#Linear_program_formulation
 
-It is also an attempt to compute the correlated mincut where some edges can be correlated, that is "edges ij and kl are correlated then ij is cut iff kl is cut".
+It is also an attempt to compute the correlated mincut where some edges can be correlated, that is "if edges ij and kl are correlated then ij is cut iff kl is cut".
 This is somehow a subproblem of what is define here: http://people.csail.mit.edu/stefje/papers/subcutsShort.pdf  
 We try to solve it by ading, in the LP, the constraint d_ij=d_kl if edges ij and kl are correlated.
 
