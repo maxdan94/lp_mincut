@@ -12,7 +12,7 @@ We try to solve it by ading, in the LP, the constraint d_ij=d_kl if edges ij and
 Not sure whether this problem of correlated mincut is NP-Hard or not yet.
 
 It would have been in P if the added "correlation constraints" leave the constraint matrix totally unimodular: https://en.wikipedia.org/wiki/Unimodular_matrix  
-However we can show that in some cases this constraint matrix does not stay totally unimdular.
+However, we can show that in some cases the constraint matrix does not stay totally unimdular.
 
 
 ##To compile##
