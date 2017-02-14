@@ -9,7 +9,10 @@ It is also an attempt to compute the correlated mincut where some edges can be c
 This is somehow a subproblem of what is defined here: http://people.csail.mit.edu/stefje/papers/subcutsShort.pdf  
 We try to solve it by ading, in the LP, the constraint d_ij=d_kl if edges ij and kl are correlated.
 
-Not sure whether this problem of correlated mincut is NP-Hard or not yet. It is in P if the added "correlation constrains" leave the constraint matrix totally unimodular: https://en.wikipedia.org/wiki/Unimodular_matrix
+Not sure whether this problem of correlated mincut is NP-Hard or not yet.
+
+It would have been in P if the added "correlation constraints" leave the constraint matrix totally unimodular: https://en.wikipedia.org/wiki/Unimodular_matrix  
+However we can show that in some cases this constraint matrix does not stay totally unimdular.
 
 
 ##To compile##
@@ -37,7 +40,7 @@ It will print the value (d_ij between 0 and 1) associated to each set of correla
 ##Initial contributors##
 
 Maximilien Danisch  
-Technical consultant: Ziad Ismail  
+Technical consultant: Ziad Ismail and Sergey Kirgizov  
 January 2017  
 http://bit.ly/maxdan94  
 maximilien.danisch@telecom-paristech.fr
