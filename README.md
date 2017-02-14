@@ -40,7 +40,7 @@ It will print the value (d_ij between 0 and 1) associated to each set of correla
 ##Initial contributors##
 
 Maximilien Danisch  
-Technical consultant: Ziad Ismail and Sergey Kirgizov  
+Technical consultants: Ziad Ismail and Sergey Kirgizov  
 January 2017  
 http://bit.ly/maxdan94  
 maximilien.danisch@telecom-paristech.fr
