@@ -14,6 +14,7 @@ Not sure whether this problem of correlated mincut is NP-Hard or not yet.
 It would have been in P if the added "correlation constraints" leave the constraint matrix totally unimodular: https://en.wikipedia.org/wiki/Unimodular_matrix  
 However, we can show that in some cases the constraint matrix does not stay totally unimdular.
 
+We also have found some simple examples that lead to a fractional solution of the primal and/or the dual.
 
 ##To compile##
 
@@ -40,7 +41,7 @@ It will print the value (d_ij between 0 and 1) associated to each set of correla
 ##Initial contributors##
 
 Maximilien Danisch  
-Technical consultants: Ziad Ismail and Sergey Kirgizov  
+Technical consultants: Ziad Ismail, Sergey Kirgizov and Denis Cornaz  
 January 2017  
 http://bit.ly/maxdan94  
 maximilien.danisch@telecom-paristech.fr
