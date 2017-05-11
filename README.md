@@ -1,6 +1,7 @@
-#README#
+# README
 
-##Info##
+## Info
+
 This is a C code to compute the mincut using LP and MOSEK https://mosek.com/  
 The LP is detailed here:
 https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem#Linear_program_formulation
@@ -16,13 +17,13 @@ However, we can show that in some cases the constraint matrix does not stay tota
 
 We also have found some simple examples that lead to a fractional solution of the primal and/or the dual.
 
-##To compile##
+## To compile
 
 Install MOSEK with the C api (license is free for academics)  
 Change the Makefile replacing the paths with the ones that fit your settings  
 type "make"
 
-##To execute##
+## To execute
 
 type "./mclp graph.txt" for the basic mincut  
 graph.txt should contain:
@@ -38,7 +39,7 @@ graph_cor.txt should contain:
 
 It will print the value (d_ij between 0 and 1) associated to each set of correlated edges and the value of the cut.
 
-##Initial contributors##
+## Initial contributors
 
 Maximilien Danisch  
 Technical consultants: Ziad Ismail, Sergey Kirgizov and Denis Cornaz  
